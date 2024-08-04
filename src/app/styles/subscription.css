@@ -1,0 +1,86 @@
+
+
+h6, p, input, button {
+    color: #052157;
+}
+section {
+  padding: 60px 0;
+  min-height: 100vh;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+a,
+a:active,
+a:focus {
+  color: #6f6f6f;
+  text-decoration: none;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.newsletter {
+  padding: 16% 0 5%;
+  position: relative;
+  z-index: 2;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter .section-title {
+  margin-bottom: 59px;
+}
+
+.newsletter .newsletter-form {
+  height: 60px;
+  z-index: 2;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter .newsletter-form input {
+  width: 50%;
+  height: 100%;
+  border: 2px solid rgba(154, 213, 242);
+  padding: 30px;
+ 
+}
+
+.newsletter .newsletter-form input::placeholder {
+  opacity: 0.6;
+}
+.newsletter .newsletter-form .submit-button {
+  height: 60px;
+  width: 170px;
+  border: 2px solid rgb(154, 213, 242);
+  background-color: aqua;
+  border-radius: 0;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 2rem 0;
+}
